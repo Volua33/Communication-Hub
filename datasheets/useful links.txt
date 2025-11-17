@@ -28,3 +28,8 @@ https://img.klsele.com/admin/product_upload/20240507151247L-KLS12-138-8P8C.pdf
 https://www.researchgate.net/figure/Circuit-schematic-diagram-of-communication-module-of-main-control-unit-485_fig3_345095288
 
 https://kosmodrom.ua/ru/dc-intellektualnyy-klyuch/tps2553dbvt.html?srsltid=AfmBOoovYY2fd4osYPdQGy0Qvr0F0n_Tgnqchlx_Jz0huFVEQNpGz-BRMTo
+
+https://community.silabs.com/s/question/0D51M00007xePCjSAM/cp2102n-disabling-port-on-usb2514b-hub?language=en_US
+
+https://jlcpcb.com/impedance
+https://impedance.app.protoexpress.com/?data=TRzN1ju1Wt125WoNiyRWl2dt8E6roDbr3iZr5GlLrnhH2As98Um16jWeSkdVz26O+7tD/uzLtgD4uHr8vs+zj+XjpULuMyJ/4GFl9T7v07aVQa+QX1JUOBbGdU+sVUcVOb/2EFQvWxVQXV0arj6Df6iqh9It+VkGey4wUZ2Ns7dlMGaZDih9J6pTh4+wSLRIPbOIg40yex3jic3rgaYU3UfjlUPnDnG1mnEoCJsGbS3By9q9/GU1S8PF//XhuILLXPtG7l0GVWKMlQlLwZrw8xKZj0ZD0SZXx1IUU2BY12NkYqyN02DGQgLhdn1Ln7Uo9KMbvMIPt4BJDscZYlYlyg==&q=Fri%20Nov%2014%2002:07:12%20PST%202025

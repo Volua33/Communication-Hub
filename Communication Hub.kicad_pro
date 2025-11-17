@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -180,7 +186,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +215,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -448,7 +461,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "custom_symbols"
+    ]
   },
   "meta": {
     "filename": "Communication Hub.kicad_pro",
@@ -458,7 +473,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.18,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -473,13 +488,99 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.18,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DP_90R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.28,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "RJ_45",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/DN": [
+        "DP_90R"
+      ],
+      "/DP": [
+        "DP_90R"
+      ],
+      "/USBA_DN": [
+        "DP_90R"
+      ],
+      "/USBA_DP": [
+        "DP_90R"
+      ],
+      "/USD3_DN": [
+        "DP_90R"
+      ],
+      "/USD3_DP": [
+        "DP_90R"
+      ],
+      "/USD4_DN": [
+        "DP_90R"
+      ],
+      "/USD4_DP": [
+        "DP_90R"
+      ],
+      "/USDM3_DN": [
+        "DP_90R"
+      ],
+      "/USDP3_DP": [
+        "DP_90R"
+      ],
+      "CAN H": [
+        "RJ_45"
+      ],
+      "CAN L": [
+        "RJ_45"
+      ],
+      "RS422 AB_N": [
+        "DP_90R"
+      ],
+      "RS422 AB_P": [
+        "DP_90R",
+        "RJ_45"
+      ],
+      "RS422 ZY_N": [
+        "DP_90R",
+        "RJ_45"
+      ],
+      "RS422 ZY_P": [
+        "DP_90R",
+        "RJ_45"
+      ],
+      "RS485+": [
+        "DP_90R",
+        "RJ_45"
+      ],
+      "RS485-": [
+        "DP_90R",
+        "RJ_45"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -487,7 +588,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "pdf/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -610,7 +711,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "pdf/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
