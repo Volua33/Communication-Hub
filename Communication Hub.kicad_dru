@@ -1,0 +1,6 @@
+(version 1)
+(rule "diffpair_clearance_to_zone"
+  (constraint clearance (min 0.6mm))
+  (condition "A.NetClass == 'DP_90R' && B.Type == 'Zone'")
+)
+
