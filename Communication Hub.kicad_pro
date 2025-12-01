@@ -609,6 +609,30 @@
       ],
       "RS485-": [
         "DP_90R"
+      ],
+      "USBA_DN": [
+        "DP_90R"
+      ],
+      "USBA_DP": [
+        "DP_90R"
+      ],
+      "USD2_DN": [
+        "DP_90R"
+      ],
+      "USD2_DP": [
+        "DP_90R"
+      ],
+      "USD3_DN": [
+        "DP_90R"
+      ],
+      "USD3_DP": [
+        "DP_90R"
+      ],
+      "USD4_DN": [
+        "DP_90R"
+      ],
+      "USD4_DP": [
+        "DP_90R"
       ]
     },
     "netclass_patterns": []
